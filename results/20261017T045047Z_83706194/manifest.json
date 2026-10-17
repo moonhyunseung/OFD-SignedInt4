@@ -1,0 +1,15 @@
+{
+  "experiment": "finite_codec_v1",
+  "source_sha": "39bb5a64f1c1fdb7a44b789186d3499501254f5f",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "command": [
+    "experiments/verify_finite.py"
+  ],
+  "codec_sha256": "483f5f1b5c8b004a1ba6ba30a50b0775fcc8350c4a3f19c76a7d3bd03a8b156b",
+  "performance_claim": false,
+  "status": "PASS",
+  "return_code": 0,
+  "nibble_states": 16,
+  "byte_states": 256
+}

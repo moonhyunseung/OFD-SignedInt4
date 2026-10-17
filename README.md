@@ -49,3 +49,7 @@ Which exact code/coordinate transformations preserve the quantized state or comm
 ## Non-goals
 
 No requantization, numerical low-rank approximation, changed quantization error, or quality-changing code transformation belongs in the exact path.
+
+## Reproducible reference checkpoint
+
+See [reference findings](analysis/REFERENCE_FINDINGS.md) for the pinned source SHA, raw run, numerical observations and remaining gates. Install the recorded environment and run `python experiments/verify_finite.py` from a clean worktree. No GPU performance claim is made.
